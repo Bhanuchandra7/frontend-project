@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find 24/7 Hospitals by City</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #f5f7f8;
+            font-family: Arial, sans-serif;
+            color: #00303d;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .section-container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        p.section-desc {
+            text-align: center;
+            font-size: 16px;
+            color: #4a5b60;
+            max-width: 700px;
+            margin: 0 auto 35px;
+            line-height: 1.6;
+        }
+
+        /* CITY GRID */
+        .city-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        /* CITY CARD */
+        .city-card {
+            background: #ffffff;
+            border: 1px solid #d8e7ec;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 600;
+            color: #00303d;
+            text-decoration: none;
+            transition: 0.25s;
+            display: block;
+        }
+
+        .city-card:hover {
+            background: #f3fafc;
+            border-color: #b6dfe8;
+            transform: translateY(-3px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            color: #728a91;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="section-container">
+        <h2>Find 24/7 Hospitals by City</h2>
+
+        <p class="section-desc">
+            Select your city to locate the nearest 24/7 Hospital, check facilities, or book an appointment instantly.
+        </p>
+
+        <!-- CITIES -->
+        <div class="city-grid">
+
+            <a class="city-card" href="#">Hyderabad →</a>
+            <a class="city-card" href="#">Mumbai →</a>
+            <a class="city-card" href="#">Chennai →</a>
+            <a class="city-card" href="#">Bengaluru →</a>
+            <a class="city-card" href="#">Kochi →</a>
+            <a class="city-card" href="#">Madhurai →</a>
+            <a class="city-card" href="#">Nashik →</a>
+            <a class="city-card" href="#">Vishakapatnam →</a>
+            <a class="city-card" href="#">Lucknow →</a>
+            <a class="city-card" href="#">Nellore →</a>
+            <a class="city-card" href="#">Indore →</a>
+            <a class="city-card" href="#">Ahmedabad →</a>
+
+        </div>
+    </div>
+
+    <footer>© 2025 — 24/7 Hospitals. All Rights Reserved.</footer>
+
+</body>
+</html>

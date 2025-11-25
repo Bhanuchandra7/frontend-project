@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Hospital - 24/7 Hospitals</title>
+
+    <style>
+        body { margin:0; background:#f5f7f8; font-family:Arial; color:#00303d; }
+        .container { max-width:1200px; margin:60px auto; padding:0 20px; }
+        h1 { font-size:34px; text-align:center; font-weight:700; }
+        p.subtitle { text-align:center; color:#4a5b60; margin-bottom:35px; }
+
+        .grid { display:grid; gap:20px; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); }
+
+        .card {
+            background:#fff; padding:25px; border-radius:14px;
+            border:1px solid #d8e7ec; text-decoration:none; color:#00303d;
+            box-shadow:0 4px 14px rgba(0,0,0,0.06); transition:0.25s;
+        }
+        .card:hover { background:#f3fafc; transform:translateY(-3px); }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Find Hospital</h1>
+    <p class="subtitle">Choose a city to locate our nearest 24/7 Hospital.</p>
+
+    <div class="grid">
+        <a class="card" href="#">Hyderabad →</a>
+        <a class="card" href="#">Chennai →</a>
+        <a class="card" href="#">Mumbai →</a>
+        <a class="card" href="#">Delhi →</a>
+        <a class="card" href="#">Bengaluru →</a>
+        <a class="card" href="#">Kolkata →</a>
+    </div>
+
+</div>
+</body>
+</html>

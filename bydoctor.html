@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find Doctors - 24/7 Hospitals</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #f5f7f8;
+            font-family: Arial, sans-serif;
+            color: #00303d;
+        }
+
+        .section-container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        p.section-desc {
+            text-align: center;
+            font-size: 16px;
+            color: #4a5b60;
+            max-width: 700px;
+            margin: 0 auto 35px;
+            line-height: 1.6;
+        }
+
+        /* Doctor Grid */
+        .doctor-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        /* Doctor Card */
+        .doctor-card {
+            background: #ffffff;
+            border: 1px solid #d8e7ec;
+            padding: 22px;
+            border-radius: 14px;
+            text-decoration: none;
+            color: #00303d;
+            transition: 0.25s;
+            display: block;
+        }
+
+        .doctor-name {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+
+        .doctor-speciality {
+            font-size: 16px;
+            color: #4a5b60;
+            margin-bottom: 12px;
+        }
+
+        .doctor-card:hover {
+            background: #f3fafc;
+            border-color: #b6dfe8;
+            transform: translateY(-3px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            color: #728a91;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="section-container">
+
+        <h2>Find Doctors</h2>
+
+        <p class="section-desc">
+            Search for senior consultants, specialists, and experienced doctors across all 24/7 Hospitals.  
+            Select a doctor to view their profile, experience, and availability.
+        </p>
+
+        <!-- DOCTOR GRID -->
+        <div class="doctor-grid">
+
+            <a class="doctor-card" href="doctor1.html">
+                <div class="doctor-name">Dr. Arjun Mehta</div>
+                <div class="doctor-speciality">Senior Cardiologist</div>
+                <div>Experience: 18+ Years</div>
+            </a>
+
+            <a class="doctor-card" href="doctor2.html">
+                <div class="doctor-name">Dr. Ananya Rao</div>
+                <div class="doctor-speciality">Neurologist</div>
+                <div>Experience: 12+ Years</div>
+            </a>
+
+            <a class="doctor-card" href="doctor3.html">
+                <div class="doctor-name">Dr. Karthik Sharma</div>
+                <div class="doctor-speciality">Orthopedic Surgeon</div>
+                <div>Experience: 15+ Years</div>
+            </a>
+
+            <a class="doctor-card" href="doctor4.html">
+                <div class="doctor-name">Dr. Meera Nair</div>
+                <div class="doctor-speciality">Pediatric Specialist</div>
+                <div>Experience: 10+ Years</div>
+            </a>
+
+            <a class="doctor-card" href="doctor5.html">
+                <div class="doctor-name">Dr. Sameer Jain</div>
+                <div class="doctor-speciality">Gastroenterologist</div>
+                <div>Experience: 14+ Years</div>
+            </a>
+
+            <a class="doctor-card" href="doctor6.html">
+                <div class="doctor-name">Dr. Riya Kapoor</div>
+                <div class="doctor-speciality">Dermatologist</div>
+                <div>Experience: 9+ Years</div>
+            </a>
+
+        </div>
+
+    </div>
+
+    <footer>© 2025 — 24/7 Hospitals. All Rights Reserved.</footer>
+
+</body>
+</html>

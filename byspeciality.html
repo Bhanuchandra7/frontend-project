@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find Hospitals by Speciality - 24/7 Hospitals</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #f5f7f8;
+            font-family: Arial, sans-serif;
+            color: #00303d;
+        }
+
+        .section-container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        p.section-desc {
+            text-align: center;
+            font-size: 16px;
+            color: #4a5b60;
+            max-width: 700px;
+            margin: 0 auto 35px;
+            line-height: 1.6;
+        }
+
+        /* Speciality Grid */
+        .spec-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 20px;
+        }
+
+        /* Speciality Card */
+        .spec-card {
+            background: #ffffff;
+            border: 1px solid #d8e7ec;
+            padding: 22px;
+            border-radius: 12px;
+            text-align: center;
+            font-size: 17px;
+            font-weight: 600;
+            color: #00303d;
+            text-decoration: none;
+            transition: 0.25s;
+            display: block;
+        }
+
+        .spec-card:hover {
+            background: #f3fafc;
+            border-color: #b6dfe8;
+            transform: translateY(-3px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            color: #728a91;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="section-container">
+        <h2>Find Hospitals by Speciality</h2>
+
+        <p class="section-desc">
+            Choose a speciality to explore top doctors, treatments, and 24/7 medical care across our hospitals.
+        </p>
+
+        <!-- SPECIALITY LIST -->
+        <div class="spec-grid">
+
+            <a class="spec-card" href="cardiology.html">Cardiology →</a>
+            <a class="spec-card" href="neurology.html">Neurology →</a>
+            <a class="spec-card" href="orthopedics.html">Orthopedics →</a>
+            <a class="spec-card" href="gastroenterology.html">Gastroenterology →</a>
+            <a class="spec-card" href="oncology.html">Oncology →</a>
+            <a class="spec-card" href="nephrology.html">Nephrology →</a>
+            <a class="spec-card" href="pediatrics.html">Pediatrics →</a>
+            <a class="spec-card" href="dermatology.html">Dermatology →</a>
+            <a class="spec-card" href="ent.html">ENT (Ear, Nose, Throat) →</a>
+            <a class="spec-card" href="gynecology.html">Gynecology →</a>
+            <a class="spec-card" href="urology.html">Urology →</a>
+            <a class="spec-card" href="pulmonology.html">Pulmonology →</a>
+
+        </div>
+    </div>
+
+    <footer>© 2025 — 24/7 Hospitals. All Rights Reserved.</footer>
+
+</body>
+</html>
