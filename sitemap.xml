@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Home page -->
+    <url>
+        <loc>https://frontend-project-eta-three.vercel.app/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- About & Mission pages -->
+    <url>
+        <loc>https://frontend-project-eta-three.vercel.app/About.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://frontend-project-eta-three.vercel.app/Misson.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://frontend-project-eta-three.vercel.app/Presence.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Find Hospital pages -->
+    <url>
+        <loc>https://frontend-project-eta-three.vercel.app/bycity.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://frontend-project-eta-three.vercel.app/byspeciality.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://frontend-project-eta-three.vercel.app/bydoctor.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Medical Services pages -->
+    <url>
+        <loc>https://frontend-project-eta-three.vercel.app/cardiology.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://frontend-project-eta-three.vercel.app/neurology.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://frontend-project-eta-three.vercel.app/orthopedics.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Health Library pages -->
+    <url>
+        <loc>https://frontend-project-eta-three.vercel.app/articles.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://frontend-project-eta-three.vercel.app/tips.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Sub-pages -->
+    <url>
+        <loc>https://frontend-project-eta-three.vercel.app/book.html</loc>
+    </url>
+    <url>
+        <loc>https://frontend-project-eta-three.vercel.app/find.html</loc>
+    </url>
+    <url>
+        <loc>https://frontend-project-eta-three.vercel.app/bookcheck.html</loc>
+    </url>
+    <url>
+        <loc>https://frontend-project-eta-three.vercel.app/get.html</loc>
+    </url>
+    <url>
+        <loc>https://frontend-project-eta-three.vercel.app/take.html</loc>
+    </url>
+    <url>
+        <loc>https://frontend-project-eta-three.vercel.app/payments.html</loc>
+    </url>
+
+    <!-- Diseases pages -->
+    <url>
+        <loc>https://frontend-project-eta-three.vercel.app/diseases-a-z.html</loc>
+    </url>
+
+</urlset>
